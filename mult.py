@@ -1,6 +1,6 @@
 def multiply(a,b):
     try:
-        return int(a)* int(b)
+        return abs(int(a)* int(b))
     except ValueError:
         return "Enter valid Numeric value"
 
