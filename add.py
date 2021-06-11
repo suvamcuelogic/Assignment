@@ -6,7 +6,11 @@ def add(a,b):
 
                     
     
-
+def substraction(a,b):
+    try:
+        return int(a)- int(b)
+    except ValueError:
+        return "Enter valid Numeric value"
     
 
 
